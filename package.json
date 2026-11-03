@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve out",
-    "lint": "next lint",
+    "serve": "npx --yes serve out",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
